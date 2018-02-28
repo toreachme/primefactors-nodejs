@@ -1,0 +1,21 @@
+{
+  "name": "primeapp",
+  "version": "1.0.0",
+  "description": "Compute prime factors of number",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Emmanuel Onuoha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "primes-and-factors": "^0.1.4",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
