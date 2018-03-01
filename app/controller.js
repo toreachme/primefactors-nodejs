@@ -7,9 +7,6 @@ exports.getInteger = (req, res) => {
 		if (error) return res.status(500).send('HTTP request Error :' + error);
 
 		res.status(200).send(body);
-
-		console.log(body);
-
 	})
 }
 
@@ -18,11 +15,9 @@ exports.getPrimeFactors = (req, res) => {
 
 	if (result == '') {
 		res.send("Sorry there was an issue");
-		onsole.log(result);
 	}
 	else{
 		res.send(result);
-		console.log(result);
 	}
 
 }
